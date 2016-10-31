@@ -1,5 +1,8 @@
+
+# chargement des données
 source('charg.R')
 
-source('ACP.R')
+# analyse en composantes principales
+source('acp')
 
-dudi.pca(D,scannf=FALSE,nf=3)->acp
+
